@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomerReview from '../sections/CustomerReview';
 
 const About = () => {
   return (
@@ -52,6 +53,8 @@ const About = () => {
           </p>
         </div>
       </div>
+
+      <CustomerReview />
     </main>
   );
 };

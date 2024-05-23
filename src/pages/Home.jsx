@@ -24,10 +24,10 @@ const Home = () => {
               our range today and elevate your printing experience!
             </p>
             <div>
-              <button className="bg-[#1e40af] text-white p-2 rounded mt-4">
+              {/* <button className="bg-[#1e40af] text-white p-2 rounded mt-4">
                 {' '}
                 Click here for Setup
-              </button>
+              </button> */}
             </div>
           </section>
         </div>

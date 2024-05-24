@@ -50,28 +50,33 @@ const Footer = () => {
                 Home
               </a>{' '}
               <br />
-              <li to="/about" className="underline hover:text-blue-500" href="">
+              <Link
+                to="/about"
+                className="underline hover:text-blue-500"
+                href=""
+              >
                 About
-              </li>{' '}
-              <li
+              </Link>{' '}
+              <br />
+              <Link
                 to="/contact"
                 className="underline hover:text-blue-500"
                 href=""
               >
                 Contact
-              </li>
+              </Link>
             </ul>
           </div>
           <div className="p-4 text-white leading-8">
             <h5 className="font-bold mb-4 text-2xl">Contact Us</h5>
-            <p>Email:</p>
-            <p>Address:</p>
+            <p>Email: support@Printmartshop</p>
+            <p>Address: 3942 Oak Woods Ct, Douglasville, GA 30135</p>
           </div>
         </div>
       </div>
       <div className=" p-4 bg-black">
         <div className="text-center ">
-          <p className="text-gray-300">Copyright © 2024 -XYZ</p>
+          <p className="text-gray-300">Copyright © 2024 -Printmartshop</p>
         </div>
       </div>
     </footer>

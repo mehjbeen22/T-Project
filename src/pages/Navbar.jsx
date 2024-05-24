@@ -17,22 +17,22 @@ const Navbar = () => {
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
         <ul className="hidden sm:flex justify-end items-center gap-6 text-lg">
-          <Link to="/" className="border border-white px-3 py-2 rounded">
+          <Link to="/" className="border border-white px-2 py-1 rounded">
             Home
           </Link>
-          <Link to="/about" className="border border-white px-3 py-2 rounded">
+          <Link to="/about" className="border border-white px-2 py-1 rounded">
             About
           </Link>
           <Link
             to="/products"
-            className="border border-white px-3 py-2 rounded"
+            className="border border-white px-2 py-1 rounded"
           >
             Products
           </Link>
-          <Link to="/service" className="border border-white px-3 py-2 rounded">
+          <Link to="/service" className="border border-white px-2 py-1 rounded">
             Service
           </Link>
-          <Link to="/contact" className="border border-white px-3 py-2 rounded">
+          <Link to="/contact" className="border border-white px-2 py-1 rounded">
             Contact Us
           </Link>
         </ul>

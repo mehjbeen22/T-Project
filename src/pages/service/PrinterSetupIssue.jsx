@@ -1,23 +1,25 @@
+import React from 'react';
+
 const PrinterSetupIssue = () => {
   return (
     <main className="bg-gray-100 min-h-screen flex justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
-      <section className=" w-full bg-white overflow-hidden shadow-xl rounded-lg  ">
+      <section className="w-full bg-white overflow-hidden shadow-xl rounded-lg">
         {troubleshootingSteps.map(
           ({ step, description, imageUrl, adsId }, index) => (
             <div
               key={adsId}
-              className={`flex p-6 border-b border-gray-200 ${
-                index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
+              className={`flex flex-col sm:flex-row p-6 border-b border-gray-200 ${
+                index % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'
               }`}
             >
-              <div className="w-1/2">
+              <div className="sm:w-1/2">
                 <img
                   src={imageUrl}
                   alt={`Step ${step}`}
-                  className="w-full h-80 rounded-md shadow-md "
+                  className="w-full h-64 sm:h-80 rounded-md shadow-md object-cover"
                 />
               </div>
-              <div className="w-1/2 pl-8">
+              <div className="sm:w-1/2 sm:pl-8 mt-4 sm:mt-0">
                 <h2 className="text-lg font-semibold text-gray-800 mb-2">
                   Step - {step}
                 </h2>
@@ -42,7 +44,6 @@ const PrinterSetupIssue = () => {
 };
 
 export default PrinterSetupIssue;
-
 const troubleshootingSteps = [
   {
     step: 1,

@@ -4,7 +4,7 @@ const ContactForm = () => {
       <main className="flex justify-center items-center ">
         <div
           className="flex justify-between items-center gap-2 w-[80%] bg-white rounded-md mt-5 mx-4
-        shadow-2xl md:p-5  p-4"
+        shadow-2xl md:p-5 mt-20  p-4"
         >
           {/* Image section */}
           <section className="hidden md:block w-[45%]">

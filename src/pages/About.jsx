@@ -17,15 +17,15 @@ const About = () => {
       <div className="flex justify-center items-center mt-6 mb-6 px-4">
         <div className="bg-white shadow-2xl rounded-md p-6 w-[80%]">
           <p className="mb-4 text-lg text-gray-800">
-            Welcome to PrinterZone! We're passionate about providing top-quality
-            printing solutions to our customers. With years of experience in the
-            industry, we understand the importance of reliable printing
-            equipment for both personal and professional use.
+            Welcome to PrintmartShop! We're passionate about providing
+            top-quality printing solutions to our customers. With years of
+            experience in the industry, we understand the importance of reliable
+            printing equipment for both personal and professional use.
           </p>
 
           <p className="mb-4 text-lg text-gray-800">
-            At PrinterZone, we offer a wide range of printers, from compact home
-            printers to high-performance commercial printers. Our selection
+            At PrintmartShop, we offer a wide range of printers, from compact
+            home printers to high-performance commercial printers. Our selection
             includes the latest models from leading brands, ensuring that you
             find the perfect printer to suit your needs.
           </p>
@@ -38,7 +38,7 @@ const About = () => {
           </p>
 
           <p className="mb-4 text-lg text-gray-800">
-            Our mission at PrinterZone is to make printing hassle-free and
+            Our mission at PrintmartShop is to make printing hassle-free and
             efficient for you. We believe that everyone should have access to
             reliable printing solutions that meet their needs. Whether you're a
             student printing assignments, a small business owner producing
@@ -47,7 +47,7 @@ const About = () => {
           </p>
 
           <p className="text-lg text-gray-800">
-            Thank you for choosing PrinterZone for all your printing needs. We
+            Thank you for choosing PrintmartShop for all your printing needs. We
             look forward to serving you and helping you find the perfect
             printing solution!
           </p>

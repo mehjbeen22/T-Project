@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <main className="h-[90vh]  flex items-center justify-center bg-gray-100">
-        <div className="w-11/12 h-5/6 flex flex-col md:flex-row shadow-lg rounded-lg overflow-hidden">
+        <div className="w-11/12 h-5/6 flex flex-col md:flex-row shadow-lg rounded-lg overflow-hidden mt-12">
           <section className="md:w-1/2 h-1/2 md:h-full bg-white p-4">
             <img
               src="https://img.freepik.com/premium-photo/bussinessman-hand-press-button-panel-printer-scanner-laser-copy-machine-office_298018-310.jpg?w=826"

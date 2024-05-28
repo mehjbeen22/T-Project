@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import Footer from './sections/Footer';
-import Disclaimer from './footer sections/Disclaimer';
 import About from './pages/About';
 import FAQPage from './footer sections/FAQPage';
 import PrivacyPolicy from './footer sections/PrivacyPolicy';
@@ -31,7 +30,6 @@ const App = () => {
 
             <Route path="/contact" element={<Contact />} />
             <Route path="/service" element={<Service />} />
-            <Route path="/disclaimer" element={<Disclaimer />} />
             <Route path="/faqs" element={<FAQPage />} />
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/t&c" element={<TermsAndConditions />} />

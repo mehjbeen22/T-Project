@@ -37,7 +37,7 @@ export default function Products() {
                   <Card.Title className="text-blue-800 font-bold">
                     {category}
                   </Card.Title>
-                  <Card.Text>{name}</Card.Text>
+                  <Card.Text>Refurbished {name}</Card.Text>
                   <Card.Text className="font-bold">Price: ${price}</Card.Text>
                   <button
                     onClick={() =>

@@ -64,7 +64,7 @@ const SpecialProducts = () => {
                 />
                 <Card.Body className="px-3 py-2 ">
                   <p className="text-gray-600 font-bold mb-2">{category}</p>
-                  <p>{name}</p>
+                  <p>Refurbished {name}</p>
                   <div className="flex items-center justify-center mb-2">
                     <span className="text-yellow-500 font-bold text-xl mr-5">
                       ${currentPrice}

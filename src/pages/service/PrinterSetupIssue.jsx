@@ -3,6 +3,7 @@ import React from 'react';
 const PrinterSetupIssue = () => {
   return (
     <main className="bg-gray-100 min-h-screen flex justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
+      <h2>Printer Setup Issue</h2>
       <section className="w-full bg-white overflow-hidden shadow-xl rounded-lg">
         {troubleshootingSteps.map(
           ({ step, description, imageUrl, adsId }, index) => (
@@ -44,6 +45,7 @@ const PrinterSetupIssue = () => {
 };
 
 export default PrinterSetupIssue;
+
 const troubleshootingSteps = [
   {
     step: 1,
